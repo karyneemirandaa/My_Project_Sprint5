@@ -18,6 +18,6 @@ scatter_button = st.button('Criar Gráfico de Dispersão')
 if scatter_button:
     st.write('Criando um gráfico de dispersão quando o botão é clicado')
 
-    fig = px.scatter(car_data, x='odemeter', y='price')
+    fig = px.scatter(car_data, x='odometer', y='price')
 
     st.plotly_chart(fig, user_container_width=True)

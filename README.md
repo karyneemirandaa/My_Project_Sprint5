@@ -32,3 +32,6 @@ O aplicativo oferece as seguintes funcionalidades:
 
 ```bash
 pip install streamlit pandas plotly
+
+## Link para acesso
+https://my-project-sprint5.onrender.com/
